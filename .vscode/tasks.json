@@ -7,6 +7,7 @@
             "args": [
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
+                "-g",
                 "${workspaceFolder}/src/*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
@@ -26,6 +27,3 @@
     ],
     "version": "2.0.0"
 }
-
-//"${workspaceFolder}/LLD/LLDImpCases/ParkingLot/*.cpp",
-//"${workspaceFolder}/LLD/LLDImpCases/LoggerService/src/*.cpp"

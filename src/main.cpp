@@ -13,7 +13,7 @@ int main() {
     vector<ParkingSlot*> slotList23;
     for(int i=0;i<3;i++) {
         //for first floor
-        ParkingSlot *parkingSlot11 = new ParkingSlot("dkjsh");
+        ParkingSlot *parkingSlot11 = new ParkingSlot("ParkGear");
         slotList11.push_back(parkingSlot11);
         ParkingSlot *parkingSlot12 = new ParkingSlot(to_string(i+1));
         slotList12.push_back(parkingSlot12);
